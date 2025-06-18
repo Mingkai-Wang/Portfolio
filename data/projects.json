@@ -22,6 +22,9 @@
       "readme": "Professional financial compliance system with Refinitiv API integration, multi-database support, and PowerBI Dashboard.",
       "role": "Work Project",
       "team_size": "Two Interns with DS Director",
+      "github_url": "",
+      "demo_url": "",
+      "documentation_url": "",
       "key_metrics": [
         {
           "label": "API Success Rate",

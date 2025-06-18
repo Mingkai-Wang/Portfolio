@@ -17,10 +17,10 @@ def load_projects():
             return json.load(f)
     except FileNotFoundError:
         logging.error("Projects data file not found")
-        return {"projects": [], "technologies": [], "categories": []}
+        return {"projects": [], "categories": []}
     except json.JSONDecodeError:
         logging.error("Invalid JSON in projects data file")
-        return {"projects": [], "technologies": [], "categories": []}
+        return {"projects": [], "categories": []}
 
 def get_unique_technologies(projects):
     """Extract unique technologies from all projects"""
