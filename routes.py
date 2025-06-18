@@ -727,7 +727,6 @@ def download_project_zip(project_id):
         else:
             return "Project download not available", 404
         
-        # Create the professional ZIP file
         zip_path = create_project_zip(project_files, project_name)
         
         # Send the file

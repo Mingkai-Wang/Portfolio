@@ -5,7 +5,7 @@
       "title": "End-to-End Project of JSON Scripts + SQL (MongoDB + SQL Server)",
       "description": "Comprehensive financial compliance system integrating third-party screening API for automated background verification. Features real-time sanctions screening, multi-database architecture (MongoDB + SQL Server).",
       "detailed_description": "Professional financial compliance platform developed for background screening using third-party screening API with comprehensive database integration. The system performs real-time sanctions and watchlist screening for individuals and organizations, featuring advanced data matching algorithms (from the company), parallel processing capabilities, and multi-database architecture supporting both MongoDB and SQL Server. Successfully processed multiple organizations with high API success rate and reliable performance metrics.",
-      "category": "Financial Technology",
+      "category": "Database",
       "features": [
         "Third-party screening API integration with secure HMAC-SHA256 authentication",
         "Multi-database architecture supporting MongoDB and SQL Server",
@@ -29,20 +29,6 @@
         {
           "name": "Professional Project Package",
           "url": "/download/project/refinitiv-worldcheck-integration-system"
-        }
-      ],
-      "screenshots": [
-        {
-          "url": "/static/images/refinitiv-api-architecture.png",
-          "caption": "System architecture showing multi-database integration and API workflow"
-        },
-        {
-          "url": "/static/images/data-matching-results.png",
-          "caption": "Data matching results showing performance metrics"
-        },
-        {
-          "url": "/static/images/organization-screening.png",
-          "caption": "Organization screening workflow demonstration"
         }
       ],
       "key_metrics": [
