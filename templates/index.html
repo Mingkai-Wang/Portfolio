@@ -14,13 +14,13 @@
 
         {% if projects %}
         
-        <!-- Professional Projects Section -->
+        <!--Work Project Section -->
         {% set professional_projects = projects|selectattr("role", "equalto", "Professional Project")|list %}
         {% if professional_projects %}
         <div class="mb-5">
             <div class="d-flex align-items-center mb-4">
                 <i class="fas fa-briefcase text-success me-3 fs-4"></i>
-                <h2 class="mb-0">Professional Projects</h2>
+                <h2 class="mb-0">Work Project</h2>
 
             </div>
             <p class="text-muted mb-4">Industry projects demonstrating data analyst capabilities using Python, data management (SQL) and visualization (PowerBI). Due to confidentiality requirements, representative examples are shown with synthetic sample data to protect sensitive business information.</p>
@@ -41,7 +41,7 @@
                             
                             <div class="mb-2">
                                 <small class="text-muted">
-                                    <i class="fas fa-calendar me-1"></i>{{ project.date or 'Professional Project' }}
+                                    <i class="fas fa-calendar me-1"></i>{{ project.date or 'work Project' }}
                                 </small>
                             </div>
                             
@@ -87,12 +87,12 @@
         </div>
         {% endif %}
         
-        <!-- Academic Projects Section -->
-        {% set academic_projects = projects|rejectattr("role", "equalto", "Professional Project")|list %}
+        <!-- School Projects Section -->
+        {% set School_projects = projects|rejectattr("role", "equalto", "Work Project")|list %}
         <div class="mb-5">
             <div class="d-flex align-items-center mb-4">
                 <i class="fas fa-graduation-cap text-primary me-3 fs-4"></i>
-                <h2 class="mb-0">Academic Projects</h2>
+                <h2 class="mb-0">School Projects</h2>
 
             </div>
             <p class="text-muted mb-4">Projects completed during Master of Science in Business Analytics at NTU Singapore, covering Machine Learning, Big Data & AI, Python Programming, Operations Analytics, Digital Transformation Strategies, SQL Database Management, R Statistical Computing, and advanced data modeling techniques</p>
@@ -104,7 +104,7 @@
                         <div class="card-body d-flex flex-column">
                             <div class="d-flex justify-content-between align-items-start mb-2">
                                 <h5 class="card-title">{{ project.title }}</h5>
-                                <span class="badge bg-secondary">{{ project.category or 'Academic' }}</span>
+                                <span class="badge bg-secondary">{{ project.category or 'School' }}</span>
                             </div>
                             
                             <p class="card-text text-muted flex-grow-1">

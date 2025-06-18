@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "refinitiv-worldcheck-integration-system",
-      "title": "End-to-End Project of JSON Scripts + SQL (MongoDB + SQL Server)",
+      "title": "Full Stack Project of JSON Scripts + SQL (MongoDB + SQL Server)",
       "description": "Comprehensive financial compliance system integrating third-party screening API for automated background verification. Features real-time sanctions screening, multi-database architecture (MongoDB + SQL Server).",
       "detailed_description": "Professional financial compliance platform developed for background screening using third-party screening API with comprehensive database integration. The system performs real-time sanctions and watchlist screening for individuals and organizations, featuring advanced data matching algorithms (from the company), parallel processing capabilities, and multi-database architecture supporting both MongoDB and SQL Server. Successfully processed multiple organizations with high API success rate and reliable performance metrics.",
       "category": "Database",
@@ -20,17 +20,8 @@
       ],
       "date": "June 2025",
       "readme": "Professional financial compliance system with Refinitiv API integration, multi-database support, and PowerBI Dashboard.",
-      "role": "Professional Project",
+      "role": "Work Project",
       "team_size": "Two Interns with DS Director",
-      "github_url": "",
-      "demo_url": "",
-      "documentation_url": "",
-      "downloads": [
-        {
-          "name": "Professional Project Package",
-          "url": "/download/project/refinitiv-worldcheck-integration-system"
-        }
-      ],
       "key_metrics": [
         {
           "label": "API Success Rate",
@@ -128,7 +119,7 @@
       ],
       "date": "February 2025",
       "role": "School Project",
-      "team_size": "4-person Academic Team (Group Project)",
+      "team_size": "4 people Group Project",
       "github_url": "",
       "demo_url": "/financial-services-demo",
       "documentation_url": "",
