@@ -25,6 +25,12 @@
       "github_url": "",
       "demo_url": "",
       "documentation_url": "",
+      "downloads": [
+        {
+          "name": "Professional Project Package",
+          "url": "/download/project/refinitiv-worldcheck-integration-system"
+        }
+      ],
       "key_metrics": [
         {
           "label": "API Success Rate",
