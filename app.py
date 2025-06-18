@@ -36,10 +36,6 @@ def get_unique_categories(projects):
         categories.add(project.get('category', 'Other'))
     return sorted(list(categories))
 
-# Import and initialize dashboard
-from dashboard import create_dashboard
-dash_app = create_dashboard(app)
-
 # Import routes
 from routes import *
 
