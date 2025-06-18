@@ -118,8 +118,7 @@
           "url": "/static/images/lawsuit-feature-importance.png",
           "caption": "Machine learning feature importance for promotion prediction"
         }
-      ],
-      "image": "/static/images/lawsuit-analysis-preview.png"
+      ]
     },
 
 
@@ -159,31 +158,8 @@
         {
           "name": "Customer Support System",
           "url": "/downloads/ai_customer_support.py"
-        },
-        {
-          "name": "Market Data Dashboard",
-          "url": "/downloads/market_data_dashboard.py"
-        },
-        {
-          "name": "Project Requirements",
-          "url": "/downloads/financial_app_requirements.txt"
         }
-      ],
-      "screenshots": [
-        {
-          "url": "/static/images/financial-app-dashboard.png",
-          "caption": "Real-time market data dashboard with live stock prices and financial news"
-        },
-        {
-          "url": "/static/images/financial-app-ai-advisor.png",
-          "caption": "AI financial advisor interface with personalized investment recommendations"
-        },
-        {
-          "url": "/static/images/financial-app-architecture.png",
-          "caption": "Flask blueprint architecture and AI integration system design"
-        }
-      ],
-      "image": "/static/images/financial-services-preview.png"
+      ]
     }
   ],
   "categories": [],
