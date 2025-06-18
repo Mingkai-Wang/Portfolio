@@ -6,7 +6,6 @@
       "description": "Comprehensive financial compliance system integrating third-party screening API for automated background verification. Features real-time sanctions screening, multi-database architecture (MongoDB + SQL Server).",
       "detailed_description": "Professional financial compliance platform developed for background screening using third-party screening API with comprehensive database integration. The system performs real-time sanctions and watchlist screening for individuals and organizations, featuring advanced data matching algorithms (from the company), parallel processing capabilities, and multi-database architecture supporting both MongoDB and SQL Server. Successfully processed multiple organizations with high API success rate and reliable performance metrics.",
       "category": "Financial Technology",
-      "technologies": ["Python", "SQL Server", "MongoDB", "JSON", "REST API", "HMAC-SHA256", "Data Matching", "Parallel Processing", "Financial Compliance", "Risk Assessment"],
       "features": [
         "Third-party screening API integration with secure HMAC-SHA256 authentication",
         "Multi-database architecture supporting MongoDB and SQL Server",
@@ -18,16 +17,6 @@
         "Cross-database data synchronization and matching",
         "Production-ready workflow with retry mechanisms and rate limiting",
         "Complete organization screening workflow with case tracking"
-      ],
-      "challenges": [
-        "Implementing secure API authentication with HMAC-SHA256 signatures",
-        "Designing multi-database architecture for optimal performance",
-        "Developing sophisticated name matching algorithms for data deduplication",
-        "Managing API rate limits and implementing retry strategies",
-        "Ensuring data integrity across multiple database systems",
-        "Handling sensitive financial compliance data with proper security measures",
-        "Optimizing parallel processing for large-scale data operations",
-        "Creating robust error handling for production environment"
       ],
       "date": "June 2025",
       "readme": "Professional financial compliance system with Refinitiv API integration, multi-database support, and PowerBI Dashboard.",
@@ -85,7 +74,6 @@
       "description": "Comprehensive legal analytics project using R to analyze gender discrimination claims in academic medical institutions. Applied advanced statistical modeling, hypothesis testing, and machine learning techniques to examine salary and promotion patterns across 261 faculty records for court case evidence.",
       "detailed_description": "Real-world legal analytics project analyzing gender discrimination claims at Houston College of Medicine using comprehensive statistical methods in R. The analysis examined 261 faculty records across 6 departments, applying multiple statistical techniques including linear regression, logistic regression, ANOVA, t-tests, and machine learning feature importance analysis. Served as expert analytics consultant providing evidence-based conclusions for court proceedings, demonstrating practical application of statistical analysis in legal contexts.",
       "category": "Business Case Analysing",
-      "technologies": ["R", "ggplot2", "dplyr", "tidyr", "Statistical Modeling", "Machine Learning", "Legal Analytics", "Court Evidence Analysis", "caret", "Hypothesis Testing"],
       "features": [
         "Analysis of 261 faculty records across 6 medical departments",
         "Multi-variable statistical modeling for salary and promotion patterns",
@@ -95,14 +83,6 @@
         "Machine learning classification using caret package",
         "Statistical evidence preparation for legal proceedings",
         "Comprehensive correlation analysis and model diagnostics"
-      ],
-      "challenges": [
-        "Analyzing sensitive employment data for legal evidence standards",
-        "Ensuring statistical rigor for court-admissible conclusions",
-        "Handling multiple confounding variables in discrimination analysis",
-        "Creating clear visualizations for non-technical legal audiences",
-        "Balancing comprehensive analysis with courtroom presentation needs",
-        "Applying appropriate statistical tests for legal discrimination claims"
       ],
       "date": "October 2024",
       "readme": "Statistical analysis of gender discrimination in academic medical institutions using R and advanced statistical methods for legal evidence.",
@@ -149,7 +129,6 @@
       "description": "Flask web application project built during coursework with AI integration for financial advice and market data visualization. Implemented basic user authentication and API connections as part of learning full-stack development.",
       "detailed_description": "Academic group project developing a Flask-based financial application with AI features. Learned to integrate Google Gemini AI API for basic financial advice responses and connected Alpha Vantage API for market data display. Implemented user login functionality and simple form validation. Project helped understand web development concepts including routing, templates, and API consumption during final semester coursework.",
       "category": "Artificial Intelligence",
-      "technologies": ["Python", "Flask", "Flask-Login", "Flask-Limiter", "Google Gemini AI", "Alpha Vantage API", "AJAX", "HTML5", "CSS3", "JavaScript", "Session Management", "API Integration", "Security", "Gunicorn"],
       "features": [
         "AI-powered financial advisory system with personalized investment recommendations",
         "Real-time stock market data visualization and financial news integration",
@@ -162,16 +141,7 @@
         "API integration with comprehensive timeout and retry mechanisms",
         "Professional deployment configuration with Gunicorn and Gevent"
       ],
-      "challenges": [
-        "Integrating multiple external APIs (Google Gemini AI, Alpha Vantage) with robust error handling",
-        "Implementing secure user authentication and session management with rate limiting",
-        "Designing scalable Flask application architecture using blueprint patterns",
-        "Creating responsive real-time data updates without overwhelming API rate limits",
-        "Balancing AI response quality with performance optimization and timeout handling",
-        "Ensuring data integrity and graceful degradation when external services are unavailable"
-      ],
       "date": "February 2025",
-      "duration": "4 weeks",
       "role": "School Project",
       "team_size": "4-person Academic Team (Group Project)",
       "github_url": "",
@@ -216,7 +186,6 @@
       "image": "/static/images/financial-services-preview.png"
     }
   ],
-  "technologies": [],
   "categories": [],
   "skills": {
     "technical": [
@@ -251,21 +220,6 @@
         "icon": "api"
       }
     ],
-    "tools": [
-      "Git & GitHub",
-      "Jupyter Notebooks",
-      "Docker",
-      "Pandas",
-      "NumPy",
-      "Matplotlib",
-      "Plotly",
-      "Tableau",
-      "Excel",
-      "PostgreSQL",
-      "MySQL",
-      "MongoDB"
-    ]
-  },
   "contact": {
     "email": "",
     "github": "",
@@ -279,4 +233,5 @@
     "location": "Your Location",
     "experience_years": 0
   }
-}
+}}
+
