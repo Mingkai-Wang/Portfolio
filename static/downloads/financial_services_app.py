@@ -103,7 +103,7 @@ if __name__ == '__main__':
     app.config['RATELIMIT_STRATEGY'] = 'fixed-window'
     
     # Start application
-    app.run(debug=False, port=5000)
+    app.run(debug=False, port=8888)
 
 '''
 Default login credentials:
