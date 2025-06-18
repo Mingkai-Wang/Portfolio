@@ -19,18 +19,11 @@
         "Complete organization screening workflow with case tracking"
       ],
       "date": "June 2025",
-      "readme": "Professional financial compliance system with Refinitiv API integration, multi-database support, and PowerBI Dashboard.",
       "role": "Work Project",
       "team_size": "Two Interns with DS Director",
       "github_url": "",
       "demo_url": "",
       "documentation_url": "",
-      "downloads": [
-        {
-          "name": "Professional Project Package",
-          "url": "/download/project/refinitiv-worldcheck-integration-system"
-        }
-      ],
       "key_metrics": [
         {
           "label": "API Success Rate",
