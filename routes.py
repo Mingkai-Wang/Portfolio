@@ -190,7 +190,7 @@ def financial_services_demo():
                 <p class="lead text-light opacity-75">Live Interactive Demonstration</p>
                 <div class="mt-4">
                     <button onclick="history.back()" class="btn btn-outline-light me-3">
-                        <i class="fas fa-arrow-left me-2"></i>Back to Portfolio
+                        <i class="fas fa-arrow-left me-2"></i>
                     </button>
                 </div>
             </div>
