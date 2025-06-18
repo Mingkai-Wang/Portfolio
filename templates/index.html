@@ -15,8 +15,8 @@
         {% if projects %}
         
         <!--Work Project Section -->
-        {% set professional_projects = projects|selectattr("role", "equalto", "Professional Project")|list %}
-        {% if professional_projects %}
+        {% set Work_project = projects|selectattr("role", "equalto", "Work Project")|list %}
+        {% if work_project %}
         <div class="mb-5">
             <div class="d-flex align-items-center mb-4">
                 <i class="fas fa-briefcase text-success me-3 fs-4"></i>
@@ -26,13 +26,13 @@
             <p class="text-muted mb-4">Industry projects demonstrating data analyst capabilities using Python, data management (SQL) and visualization (PowerBI). Due to confidentiality requirements, representative examples are shown with synthetic sample data to protect sensitive business information.</p>
             
             <div class="row g-4">
-                {% for project in professional_projects %}
+                {% for project in work_project %}
                 <div class="col-lg-4 col-md-6">
                     <div class="card h-100 shadow-sm project-card">
                         <div class="card-body d-flex flex-column">
                             <div class="d-flex justify-content-between align-items-start mb-2">
                                 <h5 class="card-title">{{ project.title }}</h5>
-                                <span class="badge bg-success">{{ project.category or 'Professional' }}</span>
+                                <span class="badge bg-success">{{ project.category or 'work' }}</span>
                             </div>
                             
                             <p class="card-text text-muted flex-grow-1">
@@ -73,14 +73,14 @@
         <div class="mb-5">
             <div class="d-flex align-items-center mb-4">
                 <i class="fas fa-briefcase text-success me-3 fs-4"></i>
-                <h2 class="mb-0">Professional Projects</h2>
+                <h2 class="mb-0">Work Project</h2>
             </div>
             <p class="text-muted mb-4">Industry projects demonstrating data analyst capabilities using Python, data management (SQL) and visualization (PowerBI). Due to confidentiality requirements, representative examples are shown with synthetic sample data to protect sensitive business information.</p>
             
             <div class="card border-2 border-dashed">
                 <div class="card-body text-center py-5">
                     <i class="fas fa-chart-line fa-3x text-muted mb-3"></i>
-                    <h5 class="text-muted">Professional Projects Coming Soon</h5>
+                    <h5 class="text-muted">More Industry Projects Coming Soon</h5>
                     <p class="text-muted mb-0">Industry experience and client work will be added as career progresses</p>
                 </div>
             </div>
@@ -98,7 +98,7 @@
             <p class="text-muted mb-4">Projects completed during Master of Science in Business Analytics at NTU Singapore, covering Machine Learning, Big Data & AI, Python Programming, Operations Analytics, Digital Transformation Strategies, SQL Database Management, R Statistical Computing, and advanced data modeling techniques</p>
             
             <div class="row g-4">
-                {% for project in academic_projects %}
+                {% for project in Work_projects %}
                 <div class="col-lg-4 col-md-6">
                     <div class="card h-100 shadow-sm project-card">
                         <div class="card-body d-flex flex-column">
@@ -113,7 +113,7 @@
                             
                             <div class="mb-2">
                                 <small class="text-muted">
-                                    <i class="fas fa-calendar me-1"></i>{{ project.date or 'Academic Project' }}
+                                    <i class="fas fa-calendar me-1"></i>{{ project.date or 'School Projects' }}
                                 </small>
                             </div>
                             

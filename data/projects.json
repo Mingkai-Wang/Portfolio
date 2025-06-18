@@ -103,7 +103,7 @@
       "id": "financial-services-ai-web-application",
       "title": "Financial Chatbot Services",
       "description": "Flask web application project built during coursework with AI integration for financial advice and market data visualization. Implemented basic user authentication and API connections as part of learning full-stack development.",
-      "detailed_description": "Academic group project developing a Flask-based financial application with AI features. Learned to integrate Google Gemini AI API for basic financial advice responses and connected Alpha Vantage API for market data display. Implemented user login functionality and simple form validation. Project helped understand web development concepts including routing, templates, and API consumption during final semester coursework.",
+      "detailed_description": "School group project developing a Flask-based financial application with AI features. Learned to integrate Google Gemini AI API for basic financial advice responses and connected Alpha Vantage API for market data display. Implemented user login functionality and simple form validation. Project helped understand web development concepts including routing, templates, and API consumption during final semester coursework.",
       "category": "Artificial Intelligence",
       "features": [
         "AI-powered financial advisory system with personalized investment recommendations",
